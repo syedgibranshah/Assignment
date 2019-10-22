@@ -1,0 +1,54 @@
+#include<stdio.h>
+
+int main()
+{
+char choice;
+printf("Time Table of The Week\n");
+printf("For Monday Enter 1.\n");
+printf("For Tuesday Enter 2.\n");
+printf("For Wednesday Enter 3.\n");
+printf("For Thursday Enter 4.\n"); 
+printf("For Friday Enter 5.\n");
+printf("For Saturday Enter 6.\n");
+printf("For Sunday Enter 7.\n");
+printf("Enter choice\n");
+
+scanf("%c", &choice);
+
+if (choice=='1')
+{
+
+printf("Monday Class is\"ICT\"\nBy Sir Asfand Yar At 9:30am\n");
+}
+
+else if (choice=='2')
+{
+ printf("Tuesday Class is\" Fundamentals Programming\"\nBy Sir Imran Ali At 9:20am\n ");
+
+}
+else if (choice=='3')
+{
+printf("Wednesday Class is\"Applied Physics\"\nBy Sir Shams ullah At 9:30am\n");
+
+}
+
+else if (choice=='4')
+
+{
+printf("Thursday Class is\"English\"\nBy Sir Mir Sadaat Baloch At 9:30am\n");
+}
+
+else if (choice=='5')
+{
+printf("Friday Class is\"Calculus\"\nBy Sir Naveed Sheikh At 9:30am\n");
+}
+else if (choice=='6')
+{
+printf("At Saturday UoB is\"Off\"\n");
+}
+else if (choice=='7')
+{
+printf(" At Sunday UoB is \"Off\"\n");
+}
+    return 0;
+}
